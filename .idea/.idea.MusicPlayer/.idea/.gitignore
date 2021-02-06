@@ -1,0 +1,11 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.MusicPlayer.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\Santhosh\RiderProjects\MusicPlayer\.idea\.idea.MusicPlayer\.idea/dataSources/
+/dataSources.local.xml
