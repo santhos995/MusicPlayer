@@ -10,5 +10,20 @@ namespace DataStructures
         public string Album;
         public string Format;
         public double Size;
+
+        public void Play()
+        {
+            
+        }
+
+        public void Pause()
+        {
+            
+        }
+
+        public void Resume()
+        {
+            
+        }
     }
 }

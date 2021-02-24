@@ -1,7 +1,7 @@
 ﻿namespace SongStorageInterfaces
 {
-    public interface IPlayer
+    public interface IPlay
     {
-        void ShufflePlay();
+        void Play();
     }
 }

@@ -2,9 +2,9 @@
 
 namespace SongStorageInterfaces
 {
-    interface ISongStorage
+    public interface ISongStorage
     {
-        string[] GetSongs();
+        Song[] GetSongs();
         Song GetSong(string name);
         bool AddSong(Song song);
         bool UpdateSong(string name, Song song);

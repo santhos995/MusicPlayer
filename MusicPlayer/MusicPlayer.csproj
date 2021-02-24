@@ -41,6 +41,16 @@
         <Compile Include="MusicPlayerClass.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\DataStructures\DataStructures.csproj">
+        <Project>{40379c71-9836-4a64-be6f-e15709ee1a0a}</Project>
+        <Name>DataStructures</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+        <Project>{7586ad01-c82a-400d-9583-c79b227d6206}</Project>
+        <Name>Interfaces</Name>
+      </ProjectReference>
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
          Other similar extension points exist, see Microsoft.Common.targets.
